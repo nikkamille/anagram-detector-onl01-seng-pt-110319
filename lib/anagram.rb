@@ -1,3 +1,5 @@
+require 'pry'
+
 class Anagram
   
   attr_accessor :word 
@@ -7,9 +9,9 @@ class Anagram
   end
   
   def match(word)
-    anagrams = 
+    
   end
   
-  
+binding.pry  
   
 end
