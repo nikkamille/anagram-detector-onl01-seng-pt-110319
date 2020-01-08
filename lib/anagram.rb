@@ -13,5 +13,4 @@ class Anagram
       possible_anagrams = []
     end
   end
-  
 end
