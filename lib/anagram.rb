@@ -7,10 +7,6 @@ class Anagram
   end
   
   def match(possible_anagrams)
-    if possible_anagrams.each do |anagram| anagram.split(" ").sort == word.split(" ").sort
-      end
-    else
-      possible_anagrams = []
-    end
+    possible_anagrams.select {|w| w.split("").sort == @word.split("").sort
   end
 end
